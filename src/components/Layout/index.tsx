@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Header from '../Header';
+import Footer from '../Footer';
+
 import { Container } from './styles';
 
 const Layout: React.FC = () => {
@@ -10,7 +12,7 @@ const Layout: React.FC = () => {
 
       {/* <Main></Main> */}
 
-      {/* <Footer></Footer> */}
+      <Footer />
     </Container>
   );
 };
