@@ -33,6 +33,6 @@ export default createGlobalStyle`
     --black: #202327;
     --white: #FFF;
     --gray: #7A7A7A;
-    --pink: EC0868;
+    --pink: #EC0868;
   }
 `;
