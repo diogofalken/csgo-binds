@@ -5,7 +5,9 @@ export const Container = styled.div`
   height: 65px;
   background: var(--secondary);
 
-  position: absolute;
+  margin-top: 5%;
+
+  position: relative;
   bottom: 0;
 
   display: flex;
