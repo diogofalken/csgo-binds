@@ -12,7 +12,7 @@ export const Container = styled.div`
 `;
 
 export const Banner = styled.div`
-  background: #c200fb;
+  background: var(--secondary);
   height: 50%;
 
   display: flex;
