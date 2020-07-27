@@ -4,57 +4,14 @@ import Card from '../Card';
 
 import { Container } from './styles';
 
+import { info } from '../../data/binds';
+
 const Main: React.FC = () => {
   return (
     <Container>
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
-      <Card keyAlias='12312312hnq' keyBind='qweasd' />
+      {info.map((cur) => (
+        <Card keyAlias={cur.keyAlias} keyBind={cur.keyBind} />
+      ))}
     </Container>
   );
 };
