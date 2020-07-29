@@ -8,7 +8,7 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
-  gap: 15px 10px;
+  gap: 50px 10px;
 
   @media (max-width: 979px) {
     grid-template-columns: repeat(3, 1fr);
