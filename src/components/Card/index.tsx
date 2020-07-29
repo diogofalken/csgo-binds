@@ -8,6 +8,23 @@ interface Props {
 }
 
 const Card: React.FC<Props> = ({ keyAlias, keyBind }) => {
+  function copyBind(e) {
+    e.preventDefault();
+
+    // Get the bind clicked
+    const bind = e.target.innerHTML;
+
+    // Create a aux element and copy to clipboard
+    const el = document.createElement('textarea');
+    el.value = bind;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+
+    alert('Copied to clipboard.');
+  }
+
   return (
     <Container>
       <Banner>
@@ -15,7 +32,7 @@ const Card: React.FC<Props> = ({ keyAlias, keyBind }) => {
       </Banner>
 
       <Info>
-        <p>{keyBind}</p>
+        <p onClick={copyBind}>{keyBind}</p>
       </Info>
     </Container>
   );
