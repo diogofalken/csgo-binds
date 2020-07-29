@@ -36,5 +36,14 @@ export const Info = styled.div`
   > p {
     color: var(--black);
     font-size: 24px;
+
+    &:hover {
+      cursor: pointer;
+      background: var(--pink);
+      padding: 5px;
+      border-radius: 20px;
+      color: var(--white);
+      transition: 0.25s all;
+    }
   }
 `;
