@@ -1,6 +1,7 @@
-<h1 align="center">
-CSGO Binds
-</h1>
+<p align="center">
+  <img height="150" src="https://i.postimg.cc/mrCKcGLX/csgo-binds.png" alt="CSGO Binds Logo">
+  <h1 align="center">CSGO Binds</h1>
+</p>
 
 <p align="center">React App that shows all the keybinds possible to map in CSGO. This is a project that I did to learn React with Styled Components.</p>
 
