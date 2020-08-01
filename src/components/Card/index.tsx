@@ -1,4 +1,9 @@
 import React from 'react';
+import {
+  ToastsContainer,
+  ToastsStore,
+  ToastsContainerPosition,
+} from 'react-toasts';
 
 import { Container, Banner, Info } from './styles';
 
@@ -22,7 +27,8 @@ const Card: React.FC<Props> = ({ keyAlias, keyBind }) => {
     document.execCommand('copy');
     document.body.removeChild(el);
 
-    alert('Copied to clipboard.');
+    // Success message to user
+    ToastsStore.success('📎 Copied to clipboard.');
   }
 
   return (
@@ -34,6 +40,11 @@ const Card: React.FC<Props> = ({ keyAlias, keyBind }) => {
       <Info>
         <p onClick={copyBind}>{keyBind}</p>
       </Info>
+
+      <ToastsContainer
+        position={ToastsContainerPosition.TOP_RIGHT}
+        store={ToastsStore}
+      />
     </Container>
   );
 };
