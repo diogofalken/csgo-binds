@@ -19,6 +19,7 @@ CSGO Binds
 - [Styled Components](https://styled-components.com/) - Use the best bits of ES6 and CSS to style your apps without stress.
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
 - [Styled Icons](https://styled-icons.js.org/) - Popular icon packs like Font Awesome, Material Design, and Octicons, available as React Styled Components.
+- [React Toasts](https://www.npmjs.com/package/react-toasts) - react-toasts is a very simple and lightweight component to create toasts.
 
 ## Quick start
 
@@ -37,11 +38,12 @@ CSGO Binds
    $ npm run clean
    ```
 4. Install dependencies
+
    ```bash
    $ npm install
    ```
 
-6. Run development app
+5. Run development app
    ```bash
    $ npm start
    ```
