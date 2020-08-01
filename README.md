@@ -5,6 +5,7 @@ CSGO Binds
 <p align="center">React App that shows all the keybinds possible to map in CSGO. This is a project that I did to learn React with Styled Components.</p>
 
 <p align="center">
+  <a href="https://csgo-binds.netlify.app"><img src="https://api.netlify.com/api/v1/badges/bf45418a-9f18-4a33-a0ac-3f5bf01bd500/deploy-status" alt="Netlify" /></a>
   <a href="https://www.codefactor.io/repository/github/diogofalken/csgo-binds"><img src="https://www.codefactor.io/repository/github/diogofalken/csgo-binds/badge" alt="CodeFactor" /></a>
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/github/license/rocketseat/youtube-challenge-electron-tray?color=%237159c1&logo=mit" alt="License">
@@ -12,6 +13,10 @@ CSGO Binds
 </p>
 
 ---
+
+## Documentation
+
+- The live version of this app can be accessed [here](https://csgo-binds.netlify.app).
 
 ## Features
 
